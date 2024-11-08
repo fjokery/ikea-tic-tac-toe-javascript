@@ -16,10 +16,13 @@ body {
 }
 
 .box{
-    background-color: blue;
+    background-color: #04348c;
     border-radius: 10px;
+    border: 1px solid black;
+    cursor: grab;
 }
 
-.box2{
+.box:hover{
     background-color: #fbe444;
+    opacity: 50%;
 }
