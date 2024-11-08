@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #af9c7d;
+}
+
+.container{
+    display: grid;
+    height: 500px;
+    width: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3px;
+}
+
+.box{
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.box2{
+    background-color: #fbe444;
+}
